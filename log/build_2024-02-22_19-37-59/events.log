@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.002055] (base_model) JobQueued: {'identifier': 'base_model', 'dependencies': OrderedDict()}
+[0.004274] (base_model) JobStarted: {'identifier': 'base_model'}
+[0.098269] (-) TimerEvent: {}
+[0.200420] (-) TimerEvent: {}
+[0.302035] (-) TimerEvent: {}
+[0.406271] (-) TimerEvent: {}
+[0.512563] (-) TimerEvent: {}
+[0.614590] (-) TimerEvent: {}
+[0.720142] (-) TimerEvent: {}
+[0.824733] (-) TimerEvent: {}
+[0.926904] (-) TimerEvent: {}
+[1.031607] (-) TimerEvent: {}
+[1.135339] (-) TimerEvent: {}
+[1.243467] (-) TimerEvent: {}
+[1.345268] (-) TimerEvent: {}
+[1.447036] (-) TimerEvent: {}
+[1.548781] (-) TimerEvent: {}
+[1.650452] (-) TimerEvent: {}
+[1.752143] (-) TimerEvent: {}
+[1.853630] (-) TimerEvent: {}
+[1.955129] (-) TimerEvent: {}
+[2.056877] (-) TimerEvent: {}
+[2.158353] (-) TimerEvent: {}
+[2.259549] (-) TimerEvent: {}
+[2.360813] (-) TimerEvent: {}
+[2.462201] (-) TimerEvent: {}
+[2.563666] (-) TimerEvent: {}
+[2.665421] (-) TimerEvent: {}
+[2.766960] (-) TimerEvent: {}
+[2.869337] (-) TimerEvent: {}
+[2.970894] (-) TimerEvent: {}
+[3.072378] (-) TimerEvent: {}
+[3.173935] (-) TimerEvent: {}
+[3.275478] (-) TimerEvent: {}
+[3.376795] (-) TimerEvent: {}
+[3.478899] (-) TimerEvent: {}
+[3.580272] (-) TimerEvent: {}
+[3.681612] (-) TimerEvent: {}
+[3.783308] (-) TimerEvent: {}
+[3.884875] (-) TimerEvent: {}
+[3.986115] (-) TimerEvent: {}
+[4.087810] (-) TimerEvent: {}
+[4.189473] (-) TimerEvent: {}
+[4.291563] (-) TimerEvent: {}
+[4.395181] (-) TimerEvent: {}
+[4.496581] (-) TimerEvent: {}
+[4.597926] (-) TimerEvent: {}
+[4.699351] (-) TimerEvent: {}
+[4.801023] (-) TimerEvent: {}
+[4.902229] (-) TimerEvent: {}
+[5.003570] (-) TimerEvent: {}
+[5.105153] (-) TimerEvent: {}
+[5.206545] (-) TimerEvent: {}
+[5.308730] (-) TimerEvent: {}
+[5.410178] (-) TimerEvent: {}
+[5.516318] (-) TimerEvent: {}
+[5.620588] (-) TimerEvent: {}
+[5.722714] (-) TimerEvent: {}
+[5.824001] (-) TimerEvent: {}
+[5.925605] (-) TimerEvent: {}
+[6.031312] (-) TimerEvent: {}
+[6.134546] (-) TimerEvent: {}
+[6.239252] (-) TimerEvent: {}
+[6.341532] (-) TimerEvent: {}
+[6.446190] (-) TimerEvent: {}
+[6.547851] (-) TimerEvent: {}
+[6.649315] (-) TimerEvent: {}
+[6.750856] (-) TimerEvent: {}
+[6.853051] (-) TimerEvent: {}
+[6.954342] (-) TimerEvent: {}
+[7.055659] (-) TimerEvent: {}
+[7.157059] (-) TimerEvent: {}
+[7.258567] (-) TimerEvent: {}
+[7.360262] (-) TimerEvent: {}
+[7.462042] (-) TimerEvent: {}
+[7.563471] (-) TimerEvent: {}
+[7.664976] (-) TimerEvent: {}
+[7.766337] (-) TimerEvent: {}
+[7.867951] (-) TimerEvent: {}
+[7.969589] (-) TimerEvent: {}
+[8.072134] (-) TimerEvent: {}
+[8.173868] (-) TimerEvent: {}
+[8.275385] (-) TimerEvent: {}
+[8.376997] (-) TimerEvent: {}
+[8.478322] (-) TimerEvent: {}
+[8.579688] (-) TimerEvent: {}
+[8.681212] (-) TimerEvent: {}
+[8.782423] (-) TimerEvent: {}
+[8.883988] (-) TimerEvent: {}
+[8.985454] (-) TimerEvent: {}
+[9.086994] (-) TimerEvent: {}
+[9.189442] (-) TimerEvent: {}
+[9.291152] (-) TimerEvent: {}
+[9.393123] (-) TimerEvent: {}
+[9.494784] (-) TimerEvent: {}
+[9.596520] (-) TimerEvent: {}
+[9.698044] (-) TimerEvent: {}
+[9.799291] (-) TimerEvent: {}
+[9.900983] (-) TimerEvent: {}
+[10.002427] (-) TimerEvent: {}
+[10.103874] (-) TimerEvent: {}
+[10.205616] (-) TimerEvent: {}
+[10.307208] (-) TimerEvent: {}
+[10.408913] (-) TimerEvent: {}
+[10.510396] (-) TimerEvent: {}
+[10.611903] (-) TimerEvent: {}
+[10.713391] (-) TimerEvent: {}
+[10.814939] (-) TimerEvent: {}
+[10.916415] (-) TimerEvent: {}
+[11.017810] (-) TimerEvent: {}
+[11.119118] (-) TimerEvent: {}
+[11.220495] (-) TimerEvent: {}
+[11.321892] (-) TimerEvent: {}
+[11.423417] (-) TimerEvent: {}
+[11.524868] (-) TimerEvent: {}
+[11.626417] (-) TimerEvent: {}
+[11.728373] (-) TimerEvent: {}
+[11.830737] (-) TimerEvent: {}
+[11.880819] (base_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/base_model', 'build', '--build-base', '/home/drec0xy/Desktop/cap_stone_ws/build/base_model/build', 'install', '--record', '/home/drec0xy/Desktop/cap_stone_ws/build/base_model/install.log', '--single-version-externally-managed'], 'cwd': '/home/drec0xy/Desktop/cap_stone_ws/src/base_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drec0xy', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drec0xy/willa_bot/install/ros2_control_demo_example_2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/drec0xy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3969', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/drec0xy/willa_bot/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'drec0xy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'drec0xy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/drec0xy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/camertronix:@/tmp/.ICE-unix/3936,unix/camertronix:/tmp/.ICE-unix/3936', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0639c6bd_3048_4b42_9d98_4170d77960b5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/drec0xy/willa_bot/install/test_urdf_tool:/home/drec0xy/willa_bot/install/ros2_control_demo_example_2:/home/drec0xy/willa_bot/install/diff_drive:/home/drec0xy/willa_bot/install/base_model:/home/drec0xy/willa_bot/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/drec0xy/Desktop/cap_stone_ws/build/base_model', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drec0xy/Desktop/cap_stone_ws/build/base_model/prefix_override:/home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages:/home/drec0xy/willa_bot/install/test_urdf_tool/lib/python3.10/site-packages:/home/drec0xy/willa_bot/install/diff_drive/lib/python3.10/site-packages:/home/drec0xy/willa_bot/install/base_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/drec0xy/willa_bot/install/ros2_control_demo_example_2:/home/drec0xy/willa_bot/install/articubot_one'}, 'shell': False}
+[11.931080] (-) TimerEvent: {}
+[12.033707] (-) TimerEvent: {}
+[12.136647] (-) TimerEvent: {}
+[12.238372] (-) TimerEvent: {}
+[12.339889] (-) TimerEvent: {}
+[12.441536] (-) TimerEvent: {}
+[12.543222] (-) TimerEvent: {}
+[12.644856] (-) TimerEvent: {}
+[12.746597] (-) TimerEvent: {}
+[12.848289] (-) TimerEvent: {}
+[12.950527] (-) TimerEvent: {}
+[13.052163] (-) TimerEvent: {}
+[13.153317] (-) TimerEvent: {}
+[13.254467] (-) TimerEvent: {}
+[13.356201] (-) TimerEvent: {}
+[13.457779] (-) TimerEvent: {}
+[13.559261] (-) TimerEvent: {}
+[13.660728] (-) TimerEvent: {}
+[13.762372] (-) TimerEvent: {}
+[13.863875] (-) TimerEvent: {}
+[13.965194] (-) TimerEvent: {}
+[14.066584] (-) TimerEvent: {}
+[14.168822] (-) TimerEvent: {}
+[14.270297] (-) TimerEvent: {}
+[14.372144] (-) TimerEvent: {}
+[14.473986] (-) TimerEvent: {}
+[14.575432] (-) TimerEvent: {}
+[14.676689] (-) TimerEvent: {}
+[14.778289] (-) TimerEvent: {}
+[14.879826] (-) TimerEvent: {}
+[14.981591] (-) TimerEvent: {}
+[15.084272] (-) TimerEvent: {}
+[15.186322] (-) TimerEvent: {}
+[15.287613] (-) TimerEvent: {}
+[15.389180] (-) TimerEvent: {}
+[15.490506] (-) TimerEvent: {}
+[15.591927] (-) TimerEvent: {}
+[15.693338] (-) TimerEvent: {}
+[15.794619] (-) TimerEvent: {}
+[15.895981] (-) TimerEvent: {}
+[15.964105] (base_model) StdoutLine: {'line': b'running egg_info\n'}
+[15.969338] (base_model) StdoutLine: {'line': b'creating ../../build/base_model/base_model.egg-info\n'}
+[15.970984] (base_model) StdoutLine: {'line': b'writing ../../build/base_model/base_model.egg-info/PKG-INFO\n'}
+[15.973194] (base_model) StdoutLine: {'line': b'writing dependency_links to ../../build/base_model/base_model.egg-info/dependency_links.txt\n'}
+[15.974536] (base_model) StdoutLine: {'line': b'writing entry points to ../../build/base_model/base_model.egg-info/entry_points.txt\n'}
+[15.976068] (base_model) StdoutLine: {'line': b'writing requirements to ../../build/base_model/base_model.egg-info/requires.txt\n'}
+[15.977401] (base_model) StdoutLine: {'line': b'writing top-level names to ../../build/base_model/base_model.egg-info/top_level.txt\n'}
+[15.980004] (base_model) StdoutLine: {'line': b"writing manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'\n"}
+[15.996321] (-) TimerEvent: {}
+[16.005819] (base_model) StdoutLine: {'line': b"reading manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'\n"}
+[16.021005] (base_model) StdoutLine: {'line': b"writing manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'\n"}
+[16.022648] (base_model) StdoutLine: {'line': b'running build\n'}
+[16.024389] (base_model) StdoutLine: {'line': b'running build_py\n'}
+[16.026110] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build\n'}
+[16.027903] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib\n'}
+[16.029235] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model\n'}
+[16.030491] (base_model) StdoutLine: {'line': b'copying base_model/__init__.py -> /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model\n'}
+[16.031907] (base_model) StdoutLine: {'line': b'running install\n'}
+[16.033411] (base_model) StdoutLine: {'line': b'running install_lib\n'}
+[16.039363] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model\n'}
+[16.041405] (base_model) StdoutLine: {'line': b'copying /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model/__init__.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model\n'}
+[16.046045] (base_model) StdoutLine: {'line': b'byte-compiling /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model/__init__.py to __init__.cpython-310.pyc\n'}
+[16.048096] (base_model) StdoutLine: {'line': b'running install_data\n'}
+[16.054670] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index\n'}
+[16.057094] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index\n'}
+[16.059375] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index/packages\n'}
+[16.061180] (base_model) StdoutLine: {'line': b'copying resource/base_model -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index/packages\n'}
+[16.062878] (base_model) StdoutLine: {'line': b'copying package.xml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.064703] (base_model) StdoutLine: {'line': b'copying launch/online_async_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.066329] (base_model) StdoutLine: {'line': b'copying launch/mapping.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.068061] (base_model) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.069599] (base_model) StdoutLine: {'line': b'copying launch/navigation_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.071157] (base_model) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.072621] (base_model) StdoutLine: {'line': b'copying launch/launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.074103] (base_model) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.076058] (base_model) StdoutLine: {'line': b'copying launch/robot_localization.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.077393] (base_model) StdoutLine: {'line': b'copying launch/slam_toolbox.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.078197] (base_model) StdoutLine: {'line': b'copying launch/localization_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model\n'}
+[16.080208] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf\n'}
+[16.081715] (base_model) StdoutLine: {'line': b'copying urdf/imu.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.082925] (base_model) StdoutLine: {'line': b'copying urdf/gazebo.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.084138] (base_model) StdoutLine: {'line': b'copying urdf/base_model.urdf.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.090593] (base_model) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.092275] (base_model) StdoutLine: {'line': b'copying urdf/gazebo_controle.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.093889] (base_model) StdoutLine: {'line': b'copying urdf/cameras.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.095204] (base_model) StdoutLine: {'line': b'copying urdf/ros2_control.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.097363] (-) TimerEvent: {}
+[16.098619] (base_model) StdoutLine: {'line': b'copying urdf/lidar.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/\n'}
+[16.100264] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/rviz\n'}
+[16.102218] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes\n'}
+[16.103701] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision\n'}
+[16.104928] (base_model) StdoutLine: {'line': b'copying meshes/collision/cam01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.105809] (base_model) StdoutLine: {'line': b'copying meshes/collision/chassisLit.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.106808] (base_model) StdoutLine: {'line': b'copying meshes/collision/verin.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.119127] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterHolderLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.121185] (base_model) StdoutLine: {'line': b'copying meshes/collision/wheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.124605] (base_model) StdoutLine: {'line': b'copying meshes/collision/tower.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.127935] (base_model) StdoutLine: {'line': b'copying meshes/collision/chassis.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.129870] (base_model) StdoutLine: {'line': b'copying meshes/collision/lidar.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.132116] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterSupportLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.134311] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterHolderRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.135538] (base_model) StdoutLine: {'line': b'copying meshes/collision/tig02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.136933] (base_model) StdoutLine: {'line': b'copying meshes/collision/verin02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.147835] (base_model) StdoutLine: {'line': b'copying meshes/collision/tig01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.149785] (base_model) StdoutLine: {'line': b'copying meshes/collision/tyre_right.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.158014] (base_model) StdoutLine: {'line': b'copying meshes/collision/shaftLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.160926] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterSupportRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.162909] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterWheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.166396] (base_model) StdoutLine: {'line': b'copying meshes/collision/blade02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.169209] (base_model) StdoutLine: {'line': b'copying meshes/collision/caterTyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.172750] (base_model) StdoutLine: {'line': b'copying meshes/collision/cam03.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.174477] (base_model) StdoutLine: {'line': b'copying meshes/collision/wheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.177691] (base_model) StdoutLine: {'line': b'copying meshes/collision/base_link.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.183914] (base_model) StdoutLine: {'line': b'copying meshes/collision/cam02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.185675] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterTyreRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.187471] (base_model) StdoutLine: {'line': b'copying meshes/collision/tyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.197090] (base_model) StdoutLine: {'line': b'copying meshes/collision/blade01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.198899] (-) TimerEvent: {}
+[16.201393] (base_model) StdoutLine: {'line': b'copying meshes/collision/shaftRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.203435] (base_model) StdoutLine: {'line': b'copying meshes/collision/cam04.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.204969] (base_model) StdoutLine: {'line': b'copying meshes/collision/mowingDeck.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.208503] (base_model) StdoutLine: {'line': b'copying meshes/collision/casterWheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.211249] (base_model) StdoutLine: {'line': b'copying meshes/collision/towerLid.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/\n'}
+[16.212963] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual\n'}
+[16.214760] (base_model) StdoutLine: {'line': b'copying meshes/visual/cam01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.216538] (base_model) StdoutLine: {'line': b'copying meshes/visual/chassisLit.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.218577] (base_model) StdoutLine: {'line': b'copying meshes/visual/verin.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.242962] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterHolderLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.244929] (base_model) StdoutLine: {'line': b'copying meshes/visual/wheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.248687] (base_model) StdoutLine: {'line': b'copying meshes/visual/tower.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.251448] (base_model) StdoutLine: {'line': b'copying meshes/visual/chassis.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.254344] (base_model) StdoutLine: {'line': b'copying meshes/visual/lidar.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.258690] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterSupportLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.261562] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterHolderRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.263186] (base_model) StdoutLine: {'line': b'copying meshes/visual/tig02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.266179] (base_model) StdoutLine: {'line': b'copying meshes/visual/verin02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.277563] (base_model) StdoutLine: {'line': b'copying meshes/visual/tig01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.279635] (base_model) StdoutLine: {'line': b'copying meshes/visual/tyre_right.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.292042] (base_model) StdoutLine: {'line': b'copying meshes/visual/shaftLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.295078] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterSupportRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.297031] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterWheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.299893] (-) TimerEvent: {}
+[16.301387] (base_model) StdoutLine: {'line': b'copying meshes/visual/blade02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.303689] (base_model) StdoutLine: {'line': b'copying meshes/visual/caterTyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.306555] (base_model) StdoutLine: {'line': b'copying meshes/visual/cam03.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.309107] (base_model) StdoutLine: {'line': b'copying meshes/visual/wheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.312317] (base_model) StdoutLine: {'line': b'copying meshes/visual/base_link.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.320127] (base_model) StdoutLine: {'line': b'copying meshes/visual/cam02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.321809] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterTyreRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.324221] (base_model) StdoutLine: {'line': b'copying meshes/visual/tyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.336138] (base_model) StdoutLine: {'line': b'copying meshes/visual/blade01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.339218] (base_model) StdoutLine: {'line': b'copying meshes/visual/shaftRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.347514] (base_model) StdoutLine: {'line': b'copying meshes/visual/cam04.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.348954] (base_model) StdoutLine: {'line': b'copying meshes/visual/mowingDeck.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.350814] (base_model) StdoutLine: {'line': b'copying meshes/visual/casterWheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.355247] (base_model) StdoutLine: {'line': b'copying meshes/visual/towerLid.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/\n'}
+[16.357495] (base_model) StdoutLine: {'line': b'creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config\n'}
+[16.359273] (base_model) StdoutLine: {'line': b'copying config/ball_tracker_params_sim.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.360990] (base_model) StdoutLine: {'line': b'copying config/my_nav2_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.362565] (base_model) StdoutLine: {'line': b'copying config/joystick.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.364346] (base_model) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.365989] (base_model) StdoutLine: {'line': b'copying config/twist_mux.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.368417] (base_model) StdoutLine: {'line': b'copying config/gaz_ros2_ctl_use_sim.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.370101] (base_model) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.371383] (base_model) StdoutLine: {'line': b'copying config/gazebo_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.373349] (base_model) StdoutLine: {'line': b'copying config/ball_tracker_params_robot.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.375025] (base_model) StdoutLine: {'line': b'copying config/ekf.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.376940] (base_model) StdoutLine: {'line': b'copying config/empty.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.378251] (base_model) StdoutLine: {'line': b'copying config/my_controllers.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.380514] (base_model) StdoutLine: {'line': b'copying config/main.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.382208] (base_model) StdoutLine: {'line': b'copying config/map.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.383418] (base_model) StdoutLine: {'line': b'copying config/drive_bot.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.385222] (base_model) StdoutLine: {'line': b'copying config/slam_toolbox_default.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.386252] (base_model) StdoutLine: {'line': b'copying config/view_bot.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.387814] (base_model) StdoutLine: {'line': b'copying config/willabot_lds_2d.lua -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/\n'}
+[16.388821] (base_model) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.400245] (-) TimerEvent: {}
+[16.411459] (base_model) StdoutLine: {'line': b'Copying ../../build/base_model/base_model.egg-info to /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model-0.0.0-py3.10.egg-info\n'}
+[16.423930] (base_model) StdoutLine: {'line': b'running install_scripts\n'}
+[16.500561] (-) TimerEvent: {}
+[16.602135] (-) TimerEvent: {}
+[16.652612] (base_model) StdoutLine: {'line': b"writing list of installed files to '/home/drec0xy/Desktop/cap_stone_ws/build/base_model/install.log'\n"}
+[16.702494] (-) TimerEvent: {}
+[16.803950] (-) TimerEvent: {}
+[16.857388] (base_model) CommandEnded: {'returncode': 0}
+[16.904382] (-) TimerEvent: {}
+[17.009843] (-) TimerEvent: {}
+[17.115878] (-) TimerEvent: {}
+[17.218020] (-) TimerEvent: {}
+[17.321210] (-) TimerEvent: {}
+[17.423292] (-) TimerEvent: {}
+[17.525647] (-) TimerEvent: {}
+[17.628926] (-) TimerEvent: {}
+[17.720364] (base_model) JobEnded: {'identifier': 'base_model', 'rc': 0}
+[17.728153] (-) EventReactorShutdown: {}

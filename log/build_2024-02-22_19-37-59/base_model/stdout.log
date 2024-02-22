@@ -1,0 +1,135 @@
+running egg_info
+creating ../../build/base_model/base_model.egg-info
+writing ../../build/base_model/base_model.egg-info/PKG-INFO
+writing dependency_links to ../../build/base_model/base_model.egg-info/dependency_links.txt
+writing entry points to ../../build/base_model/base_model.egg-info/entry_points.txt
+writing requirements to ../../build/base_model/base_model.egg-info/requires.txt
+writing top-level names to ../../build/base_model/base_model.egg-info/top_level.txt
+writing manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'
+reading manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'
+writing manifest file '../../build/base_model/base_model.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build
+creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib
+creating /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model
+copying base_model/__init__.py -> /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model
+running install
+running install_lib
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model
+copying /home/drec0xy/Desktop/cap_stone_ws/build/base_model/build/lib/base_model/__init__.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model
+byte-compiling /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index/packages
+copying resource/base_model -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/online_async_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/mapping.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/launch_sim.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/navigation_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/rsp.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/joystick.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/robot_localization.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/slam_toolbox.launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+copying launch/localization_launch.py -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf
+copying urdf/imu.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/gazebo.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/base_model.urdf.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/materials.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/gazebo_controle.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/cameras.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/ros2_control.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+copying urdf/lidar.xacro -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/urdf/
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/rviz
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision
+copying meshes/collision/cam01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/chassisLit.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/verin.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterHolderLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/wheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/tower.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/chassis.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/lidar.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterSupportLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterHolderRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/tig02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/verin02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/tig01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/tyre_right.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/shaftLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterSupportRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterWheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/blade02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/caterTyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/cam03.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/wheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/base_link.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/cam02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterTyreRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/tyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/blade01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/shaftRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/cam04.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/mowingDeck.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/casterWheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+copying meshes/collision/towerLid.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/collision/
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual
+copying meshes/visual/cam01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/chassisLit.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/verin.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterHolderLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/wheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/tower.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/chassis.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/lidar.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterSupportLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterHolderRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/tig02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/verin02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/tig01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/tyre_right.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/shaftLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterSupportRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterWheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/blade02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/caterTyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/cam03.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/wheelRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/base_link.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/cam02.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterTyreRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/tyreLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/blade01.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/shaftRight.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/cam04.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/mowingDeck.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/casterWheelLeft.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+copying meshes/visual/towerLid.STL -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/meshes/visual/
+creating /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config
+copying config/ball_tracker_params_sim.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/my_nav2_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/joystick.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/mapper_params_online_async.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/twist_mux.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/gaz_ros2_ctl_use_sim.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/nav2_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/gazebo_params.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/ball_tracker_params_robot.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/ekf.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/empty.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/my_controllers.yaml -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/main.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/map.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/drive_bot.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/slam_toolbox_default.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/view_bot.rviz -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+copying config/willabot_lds_2d.lua -> /home/drec0xy/Desktop/cap_stone_ws/install/base_model/share/base_model/config/
+running install_egg_info
+Copying ../../build/base_model/base_model.egg-info to /home/drec0xy/Desktop/cap_stone_ws/install/base_model/lib/python3.10/site-packages/base_model-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/drec0xy/Desktop/cap_stone_ws/build/base_model/install.log'

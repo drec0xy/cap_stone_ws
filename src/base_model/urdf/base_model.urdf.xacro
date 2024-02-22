@@ -1,0 +1,1600 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="base_model">
+
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0508659978281145 0.00152081468247432 0.00962341326186748"
+        rpy="0 0 0" />
+      <mass
+        value="6.91173311066344" />
+      <inertia
+        ixx="0.156820272253263"
+        ixy="4.98520569903371E-05"
+        ixz="-0.0015464887718835"
+        iyy="0.345308524626463"
+        iyz="4.5024835135041E-05"
+        izz="0.480459354502969" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="chassis">
+    <inertial>
+      <origin
+        xyz="0.231089000670836 -0.000248790084435332 -0.11547402080887"
+        rpy="0 0 0" />
+      <mass
+        value="3.23252873299229" />
+      <inertia
+        ixx="0.205205805351716"
+        ixy="-0.000772576281958842"
+        ixz="0.0191103670774833"
+        iyy="0.310471870370984"
+        iyz="0.000107917418622799"
+        izz="0.453549675118264" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/chassis.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/chassis.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_"
+    type="fixed">
+    <origin
+      xyz="0 0 0.252686351935238"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="chassis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassisLit">
+    <inertial>
+      <origin
+        xyz="-0.00833556118134049 1.27320183627155E-05 -0.0160470323466158"
+        rpy="0 0 0" />
+      <mass
+        value="0.427663889451336" />
+      <inertia
+        ixx="0.013507801890256"
+        ixy="-8.18066726354699E-08"
+        ixz="-0.00249043323940155"
+        iyy="0.00504204697768887"
+        iyz="3.78590792789583E-08"
+        izz="0.0132420188095841" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/chassisLit.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/chassisLit.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_lit"
+    type="fixed">
+    <origin
+      xyz="-0.285421450187358 0.000212904286578927 -0.0972878425849305"
+      rpy="0 0 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="chassisLit" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tower">
+    <inertial>
+      <origin
+        xyz="0.101054693361176 -0.000284146082410466 0.0166936239054694"
+        rpy="0 0 0" />
+      <mass
+        value="0.870736859097147" />
+      <inertia
+        ixx="0.0135289300045536"
+        ixy="1.41893807618374E-05"
+        ixz="5.57163378514602E-05"
+        iyy="0.0135135538812615"
+        iyz="3.18510075144048E-05"
+        izz="0.0085929613883968" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tower.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tower.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tower_"
+    type="fixed">
+    <origin
+      xyz="0.129016525686518 0 0.132355689959802"
+      rpy="0 0 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="tower" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="cam01">
+    <inertial>
+      <origin
+        xyz="-0.0171019352766348 -3.88578058618805E-16 1.66533453693773E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0147028245299915" />
+      <inertia
+        ixx="5.48845911845838E-06"
+        ixy="3.14588160866711E-20"
+        ixz="9.44134144837959E-21"
+        iyy="4.17645272276553E-06"
+        iyz="1.85957517336641E-34"
+        izz="4.17645272276553E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="cam_01"
+    type="fixed">
+    <origin
+      xyz="0.209 0 0.110644310040197"
+      rpy="0 0 0" />
+    <parent
+      link="tower" />
+    <child
+      link="cam01" />
+  
+  </joint>
+  <link
+    name="cam02">
+    <inertial>
+      <origin
+        xyz="-0.00855096763831753 0.0148107104034427 -2.22044604925031E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0147028245299917" />
+      <inertia
+        ixx="4.50445432168883E-06"
+        ixy="-5.68115434298854E-07"
+        ixz="8.66575309724166E-21"
+        iyy="5.16045751953518E-06"
+        iyz="-1.51200793431529E-20"
+        izz="4.17645272276558E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="cam_02"
+    type="fixed">
+    <origin
+      xyz="0.154500000000003 -0.0943967690124991 0.110644310040196"
+      rpy="0 0 0" />
+    <parent
+      link="tower" />
+    <child
+      link="cam02" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="cam03">
+    <inertial>
+      <origin
+        xyz="-0.00855096763831664 -0.014810710403443 4.44089209850063E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0147028245299916" />
+      <inertia
+        ixx="4.50445432168875E-06"
+        ixy="5.6811543429881E-07"
+        ixz="-4.76479362135256E-21"
+        iyy="5.16045751953524E-06"
+        iyz="-8.24004721054188E-21"
+        izz="4.17645272276557E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam03.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam03.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="cam_03"
+    type="fixed">
+    <origin
+      xyz="0.154499999999996 0.0943967690125094 0.110644310040199"
+      rpy="0 0 0" />
+    <parent
+      link="tower" />
+    <child
+      link="cam03" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="cam04">
+    <inertial>
+      <origin
+        xyz="0.0171019352766348 4.57966997657877E-16 1.11022302462516E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0147028245299915" />
+      <inertia
+        ixx="5.48845911845838E-06"
+        ixy="3.14987484543592E-20"
+        ixz="-1.87057658259618E-20"
+        iyy="4.17645272276553E-06"
+        iyz="-4.15973930230897E-34"
+        izz="4.17645272276553E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam04.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/cam04.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="cam_04"
+    type="fixed">
+    <origin
+      xyz="-0.00900000000000012 0 0.110644310040198"
+      rpy="0 0 0" />
+    <parent
+      link="tower" />
+    <child
+      link="cam04" />
+    
+  </joint>
+  <link
+    name="towerLid">
+    <inertial>
+      <origin
+        xyz="0 -9.71445146547012E-17 -0.00150000000000006"
+        rpy="0 0 0" />
+      <mass
+        value="0.0982469759272593" />
+      <inertia
+        ixx="0.000283153175628057"
+        ixy="-4.47354580981989E-12"
+        ixz="9.89659124304806E-19"
+        iyy="0.000283153085900981"
+        iyz="5.08022111996866E-18"
+        izz="0.000566158891065147" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/towerLid.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/towerLid.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tower_lid"
+    type="fixed">
+    <origin
+      xyz="0.100388110020956 -0.000204988569283568 0.176644310040196"
+      rpy="0 0 0" />
+    <parent
+      link="tower" />
+    <child
+      link="towerLid" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="shaftRight">
+    <inertial>
+      <origin
+        xyz="-2.23341484164585E-05 0.110087864099762 7.591614551411E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.514720776619699" />
+      <inertia
+        ixx="0.000727060782784477"
+        ixy="9.49659399025674E-07"
+        ixz="-1.34185813070419E-08"
+        iyy="0.000509208578859856"
+        iyz="-3.2248186254339E-07"
+        izz="0.000727019233815757" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/shaftRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.956862745098039 0.956862745098039 0.96078431372549 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/shaftRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft_right"
+    type="fixed">
+    <origin
+      xyz="0.618442587869877 -0.464818086410423 -0.130350640385499"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="shaftRight" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheelRight">
+    <inertial>
+      <origin
+        xyz="1.03920091998333E-06 0.0533246151428162 -2.58176721751324E-07"
+        rpy="0 0 0" />
+      <mass
+        value="1.40669832967328" />
+      <inertia
+        ixx="0.00408898253241259"
+        ixy="-1.54995930385097E-08"
+        ixz="2.57506666521909E-07"
+        iyy="0.00396065946094496"
+        iyz="4.46642758699548E-09"
+        izz="0.00408955213615999" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/wheelRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/wheelRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_right"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="shaftRight" />
+    <child
+      link="wheelRight" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="tyre_right">
+    <inertial>
+      <origin
+        xyz="3.51676115961652E-06 0.0680190209858415 -1.42093599472815E-06"
+        rpy="0 0 0" />
+      <mass
+        value="2.87882308178148" />
+      <inertia
+        ixx="0.0385926926227159"
+        ixy="1.0680587159859E-07"
+        ixz="9.63979391028578E-08"
+        iyy="0.058003894935"
+        iyz="-4.45804343599761E-08"
+        izz="0.0385930978636477" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tyre_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.149019607843137 0.149019607843137 0.149019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tyre_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tyreRight"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wheelRight" />
+    <child
+      link="tyre_right" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="shaftLeft">
+    <inertial>
+      <origin
+        xyz="-2.39064948397427E-05 -0.110088862804048 5.31342721316053E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.514698660465099" />
+      <inertia
+        ixx="0.000727059023700398"
+        ixy="-9.56255876581446E-07"
+        ixz="-1.58130350354109E-08"
+        iyy="0.00050920857885985"
+        iyz="3.02361082688594E-07"
+        izz="0.000727020992899843" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/shaftLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.956862745098039 0.956862745098039 0.96078431372549 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/shaftLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft_left"
+    type="fixed">
+    <origin
+      xyz="0.616372376234459 0.462119755646418 -0.129719321047416"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="shaftLeft" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheelLeft">
+    <inertial>
+      <origin
+        xyz="9.90345228046863E-07 -0.0533246151428166 -4.07197867563491E-07"
+        rpy="0 0 0" />
+      <mass
+        value="1.4066983296733" />
+      <inertia
+        ixx="0.00408893082620729"
+        ixy="1.51354720142426E-08"
+        ixz="1.95976361168184E-07"
+        iyy="0.00396065813349289"
+        iyz="-5.57709556099923E-09"
+        izz="0.00408960235535637" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/wheelLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/wheelLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_left"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="shaftLeft" />
+    <child
+      link="wheelLeft" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="tyreLeft">
+    <inertial>
+      <origin
+        xyz="3.67542028723022E-06 -0.0680190209861312 -9.36993378997109E-07"
+        rpy="0 0 0" />
+      <mass
+        value="2.87882308177232" />
+      <inertia
+        ixx="0.0385927426781572"
+        ixy="-1.12470226599174E-07"
+        ixz="1.64530994088102E-07"
+        iyy="0.058003894935207"
+        iyz="2.73071871671309E-08"
+        izz="0.0385930478085846" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tyreLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.149019607843137 0.149019607843137 0.149019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tyreLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tyre_left"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="wheelLeft" />
+    <child
+      link="tyreLeft" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterSupportLeft">
+    <inertial>
+      <origin
+        xyz="-0.00189436123415598 -0.0437867119011651 0.173495396407215"
+        rpy="0 0 0" />
+      <mass
+        value="0.460946903508512" />
+      <inertia
+        ixx="0.000561781377297508"
+        ixy="-1.9368014312618E-07"
+        ixz="6.19166897570041E-19"
+        iyy="0.000391789038573354"
+        iyz="4.98928143818049E-18"
+        izz="0.000761509206075649" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterSupportLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterSupportLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_support_left"
+    type="fixed">
+    <origin
+      xyz="-0.453532658957719 0.439298035215141 -0.198495396406967"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="casterSupportLeft" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterHolderLeft">
+    <inertial>
+      <origin
+        xyz="0.000151592310091653 -0.0392006614116899 0.117904792933982"
+        rpy="0 0 0" />
+      <mass
+        value="0.0833209061257811" />
+      <inertia
+        ixx="8.0612581680371E-05"
+        ixy="-1.3645785244881E-07"
+        ixz="-1.11409346894402E-08"
+        iyy="6.38101809119892E-05"
+        iyz="-3.93263452554279E-09"
+        izz="8.2870238291601E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterHolderLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterHolderLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_holder_left"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterSupportLeft" />
+    <child
+      link="casterHolderLeft" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterWheelLeft">
+    <inertial>
+      <origin
+        xyz="0.000371577612203522 -0.0415050771701638 0.00261917329426858"
+        rpy="0 0 0" />
+      <mass
+        value="0.43467616518886" />
+      <inertia
+        ixx="0.000855077607653301"
+        ixy="-1.48993585401081E-17"
+        ixz="1.82496722644697E-20"
+        iyy="0.00157044446597303"
+        iyz="-3.63634896201802E-18"
+        izz="0.0008550776076533" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterWheelLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterWheelLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_wheel_left"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterHolderLeft" />
+    <child
+      link="casterWheelLeft" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="caterTyreLeft">
+    <inertial>
+      <origin
+        xyz="0.000371577609860951 -0.0425846574963772 0.00261917329104561"
+        rpy="0 0 0" />
+      <mass
+        value="0.810225403265173" />
+      <inertia
+        ixx="0.00294745006429648"
+        ixy="-5.5257466637046E-17"
+        ixz="-8.21621958834915E-20"
+        iyy="0.00560952480151363"
+        iyz="-5.87487632489817E-17"
+        izz="0.00294745006429648" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/caterTyreLeft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/caterTyreLeft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_tyre_left"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterWheelLeft" />
+    <child
+      link="caterTyreLeft" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterSupportRight">
+    <inertial>
+      <origin
+        xyz="-0.00189436123408537 0.0337132880988352 0.173495396407218"
+        rpy="0 0 0" />
+      <mass
+        value="0.460946903508513" />
+      <inertia
+        ixx="0.000561781377297509"
+        ixy="-1.93680143125766E-07"
+        ixz="7.36979549241424E-19"
+        iyy="0.000391789038573357"
+        iyz="5.10347166326492E-18"
+        izz="0.000761509206075652" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterSupportRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterSupportRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_support_right"
+    type="fixed">
+    <origin
+      xyz="-0.453532658635959 -0.437201964784859 -0.198495395119808"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="casterSupportRight" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterHolderRight">
+    <inertial>
+      <origin
+        xyz="0.000151592232183084 0.0382993385883102 0.117904792850938"
+        rpy="0 0 0" />
+      <mass
+        value="0.0833209061257809" />
+      <inertia
+        ixx="8.0612581771544E-05"
+        ixy="-1.36458018787184E-07"
+        ixz="-1.11409223619755E-08"
+        iyy="6.38101809119889E-05"
+        iyz="-3.93281226439197E-09"
+        izz="8.28702382004282E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterHolderRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterHolderRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_holder_right"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterSupportRight" />
+    <child
+      link="casterHolderRight" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="casterWheelRight">
+    <inertial>
+      <origin
+        xyz="-0.000914080506875248 0.035994922829838 -0.00170632473366511"
+        rpy="0 0 0" />
+      <mass
+        value="0.43467616518886" />
+      <inertia
+        ixx="0.000855077607653299"
+        ixy="-1.60702093096998E-17"
+        ixz="9.86309493730344E-20"
+        iyy="0.00157044446597303"
+        iyz="-2.94874901861534E-18"
+        izz="0.000855077607653299" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterWheelRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterWheelRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_wheel_right"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterHolderRight" />
+    <child
+      link="casterWheelRight" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="casterTyreRight">
+    <inertial>
+      <origin
+        xyz="-0.000914080509161197 0.0359640162857297 -0.00170632473566668"
+        rpy="0 0 0" />
+      <mass
+        value="0.810225403265173" />
+      <inertia
+        ixx="0.00294745006429647"
+        ixy="-5.79020183734447E-17"
+        ixz="-2.25310763969465E-19"
+        iyy="0.00560952480151363"
+        iyz="-6.12007520064439E-17"
+        izz="0.00294745006429647" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterTyreRight.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/casterTyreRight.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_tyre_right"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="casterWheelRight" />
+    <child
+      link="casterTyreRight" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="verin">
+    <inertial>
+      <origin
+        xyz="0.13183741467256 -0.609513795848408 0.0321138497190136"
+        rpy="0 0 0" />
+      <mass
+        value="10.367699647717" />
+      <inertia
+        ixx="0.1963576333715"
+        ixy="5.45406854015518E-05"
+        ixz="-0.00154087367021979"
+        iyy="0.406248147333757"
+        iyz="4.47380974980913E-05"
+        izz="0.52122023869653" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/verin.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/verin.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="verin_"
+    type="fixed">
+    <origin
+      xyz="0.0780704843328452 0.527713631867846 -0.0786754036546297"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="verin" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tig01">
+    <inertial>
+      <origin
+        xyz="0.000268871393594106 -0.00508352999827177 -0.00721336616189877"
+        rpy="0 0 0" />
+      <mass
+        value="0.0308630062288661" />
+      <inertia
+        ixx="6.32252981517183E-05"
+        ixy="-5.25379062536221E-21"
+        ixz="-3.52973067819148E-07"
+        iyy="6.32272987718848E-05"
+        iyz="-9.25992209174855E-19"
+        izz="9.51616114752382E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tig01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tig01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tig_01"
+    type="prismatic">
+    <origin
+      xyz="-0.0001057 0.0050835 0.036001"
+      rpy="0 0 0" />
+    <parent
+      link="verin" />
+    <child
+      link="tig01" />
+    <axis
+      xyz="-0.0056678 0 -0.99998" />
+    <limit
+      lower="-0.022"
+      upper="0.06"
+      effort="10"
+      velocity="1" />
+    <dynamics
+      friction="10" />
+  </joint>
+  <link
+    name="mowingDeck">
+    <inertial>
+      <origin
+        xyz="-0.0118881787925491 0.00294062931182131 0.00366941840984203"
+        rpy="0 0 0" />
+      <mass
+        value="4.21481904526182" />
+      <inertia
+        ixx="0.492895636389241"
+        ixy="1.69151396429662E-06"
+        ixz="-0.000584539284180261"
+        iyy="0.100486084699396"
+        iyz="2.48557235498476E-05"
+        izz="0.59040934639735" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/mowingDeck.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/mowingDeck.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="mowing_deck"
+    type="fixed">
+    <origin
+      xyz="-6.94994282171013E-05 -0.534199096868073 -0.140001854830894"
+      rpy="0 0 0" />
+    <parent
+      link="tig01" />
+    <child
+      link="mowingDeck" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="blade01">
+    <inertial>
+      <origin
+        xyz="1.48906892374345E-05 -1.55796356135496E-05 0.0068373857549292"
+        rpy="0 0 0" />
+      <mass
+        value="0.0271858289838258" />
+      <inertia
+        ixx="9.0988321835544E-05"
+        ixy="-0.000116302253348166"
+        ixz="8.82312200529909E-07"
+        iyy="0.000156041153883899"
+        iyz="6.61297372091995E-07"
+        izz="0.000246140986679049" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/blade01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/blade01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="blade_01"
+    type="continuous">
+    <origin
+      xyz="-0.000356914466183245 0.262886990912155 -0.0354985472584604"
+      rpy="0 0 0" />
+    <parent
+      link="mowingDeck" />
+    <child
+      link="blade01" />
+    <axis
+      xyz="0.00566782061995203 0 0.999983937775713" />
+  </joint>
+  <link
+    name="blade02">
+    <inertial>
+      <origin
+        xyz="3.32164589111894E-05 -2.79552540782546E-05 0.00683728185269361"
+        rpy="0 0 0" />
+      <mass
+        value="0.0271858289243601" />
+      <inertia
+        ixx="0.00024053235319674"
+        ixy="-2.98510756582753E-05"
+        ixz="3.23326747556145E-08"
+        iyy="6.4922914308028E-06"
+        iyz="1.72734006169177E-07"
+        izz="0.000246145817759578" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/blade02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/blade02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="blade_02"
+    type="continuous">
+    <origin
+      xyz="-0.000390955915561486 -0.262870380643371 -0.0354983543145253"
+      rpy="0 0 0" />
+    <parent
+      link="mowingDeck" />
+    <child
+      link="blade02" />
+    <axis
+      xyz="0.00566782061995203 0 0.999983937775713" />
+  </joint>
+  <link
+    name="verin02">
+    <inertial>
+      <origin
+        xyz="-0.000272235271578047 -0.000665102997188749 0.00769716382571806"
+        rpy="0 0 0" />
+      <mass
+        value="0.577143248255302" />
+      <inertia
+        ixx="0.000945271782179111"
+        ixy="6.331295976832E-07"
+        ixz="7.17323920172153E-06"
+        iyy="0.00293514321369525"
+        iyz="-5.58213779549865E-09"
+        izz="0.00216776754502721" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/verin02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/verin02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="verin_02"
+    type="fixed">
+    <origin
+      xyz="0.078044 -0.53058 -0.083263"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="verin02" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tig02">
+    <inertial>
+      <origin
+        xyz="0.000180205541375766 0.00508815732241991 -0.00721286361168133"
+        rpy="0 0 0" />
+      <mass
+        value="0.0308630062288661" />
+      <inertia
+        ixx="6.32252981517183E-05"
+        ixy="-5.03043866736797E-21"
+        ixz="-3.52973067819077E-07"
+        iyy="6.32272987718848E-05"
+        iyz="-8.8709097326312E-19"
+        izz="9.51616114752381E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tig02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://base_model/meshes/visual/tig02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tig_02"
+    type="fixed">
+    <origin
+      xyz="0 -0.0050882 0.040588"
+      rpy="0 0 0" />
+    <parent
+      link="mowingDeck" />
+    <child
+      link="tig02" />
+  </joint>
+  
+
+  
+  
+  
+  
+  <xacro:include filename="lidar.xacro" />
+  <xacro:include filename="materials.xacro" />
+  <xacro:include filename="cameras.xacro" />
+  <xacro:include filename="imu.xacro" />
+  <xacro:include filename="ros2_control.xacro" />
+
+
+
+</robot>

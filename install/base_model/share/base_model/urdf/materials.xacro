@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="chassis">
+    <material>Gazebo/Green</material>
+  </gazebo>
+
+  <gazebo reference="chassisLit">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="tower">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="cam01">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="cam02">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="cam03">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="cam04">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="lidar">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="towerLid">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="shaftRight">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="wheelRight">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="tyre_right">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="shaftLeft">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="wheelLeft">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="tyreLeft">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="casterSupportLeft">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="casterHolderLeft">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="casterWheelLeft">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="caterTyreLeft">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="casterSupportRight">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="casterHolderRight">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="casterWheelRight">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo reference="casterTyreRight">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="verin">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="tig01">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="mowingDeck">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+
+  <gazebo reference="blade01">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="blade02">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="verin02">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="tig02">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+
+</robot>
